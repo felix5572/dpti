@@ -49,6 +49,10 @@ docs = [
 [tool.setuptools.packages.find]
 include = ["dpti*"]
 
+
+[tool.setuptools.package-data]
+"dpti.workflows.examples" = ["*/*.yaml", "*/*.lmp"]
+
 [tool.setuptools_scm]
 write_to = "dpti/_version.py"
 
