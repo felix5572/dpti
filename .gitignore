@@ -21,3 +21,7 @@ dist/
 tests/tmp
 dpdispatcher.log
 dpdisp.log
+
+# prefect workflow examples run files
+dpti/workflows/examples/*/TI_*/
+dpti/workflows/examples/*/bk*/
